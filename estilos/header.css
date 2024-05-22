@@ -1,52 +1,51 @@
-.cabeçalho{
+.navegação{
     display: flex;
     justify-content: space-between;
-    margin: 1.5em 5em;
-    padding: 0 2em;
+   
 }
-.cabeçalho__logo{
+.navegação__logo{
     display: flex;
     align-items: center;
     padding-right: 4em;
 }
-.cabeçalho__logo-titulo{
+.navegação__logo-titulo{
     font-size: 1.12em;
     font-weight: 500;
     color: var(--cinza-escuro);
     margin-left:0.5em ;
 }
-.cabeçalho__menu{
+.navegação__menu{
    
     margin-right: auto;
     align-items: center;
 }
-.cabeçalho__menu-lista{
+.navegação__menu-lista{
     display: flex;
     
 }
-.cabeçalho__menu-item{
+.navegação__menu-item{
     padding: 0.4em 1em;
 }
-.cabeçalho__menu-link{
+.navegação__menu-link{
     color: var(--cinza-claro);
     font-weight: 500 ;
     text-decoration: none;
 }
-.cabeçalho__botão{
+.navegação__botão{
     padding: 0.4em 1em;
 }
-.cabeçalho__botão-login, .cabeçalho__botão-cadastro {
+.navegação__botão-login, .navegação__botão-cadastro {
     padding: 0.7em 1.2em;
     text-decoration: none;
     font-weight: 500;
     
 }
-.cabeçalho__botão-login{
+.navegação__botão-login{
     color: var(--cinza-claro);
     padding-right: 2em;
 
 }
-.cabeçalho__botão-cadastro{
+.navegação__botão-cadastro{
     background-color: var(--vermelho-escuro);
     color: var(--branco);
     border-radius: 8px;
