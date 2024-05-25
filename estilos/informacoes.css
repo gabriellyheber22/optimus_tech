@@ -1,0 +1,26 @@
+.informações {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.informações__dados{
+    text-align: left;
+    width: 18%;   
+    
+}
+
+.informações__dados--titulo{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+}
+.informações__dados--subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--azul);
+}
+.informações__dados--texto{
+    font-weight: 400;
+    color: var(--cinza-claro);
+
+}

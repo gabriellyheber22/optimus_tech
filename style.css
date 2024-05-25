@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('/estilos/header.css');
-@import url('/estilos/about.css');
+@import url('/estilos/cabecalho.css');
+@import url('/estilos/informacoes.css');
+@import url('/estilos/vagas.css');
+@import url('/estilos/depoimento.css');
+@import url('/estilos/rodape.css');
+
 :root{
     --cinza-escuro: rgba(58, 64, 78, 1);
     --cinza-claro: rgba(102, 112, 133, 1);
     --branco:rgba(255, 255, 255, 1);
+    --cinza-rodape: rgba(249, 250, 251, 1);
     --vermelho-escuro:rgba(142, 36, 36, 1);
+    --vermelho-claro:rgba(142, 36, 36, 0.05);
     --azul: rgba(16, 24, 40, 1); 
+    --branco-borda: rgba(234, 236, 240, 1);
     --fonte-padrão: "Inter", sans-serif;
 }
 
@@ -20,6 +28,9 @@ body{
     font-weight: 400;
     font-size: 16px;
     background-color: var(--branco);
+    
+}
+section, header{
     margin: 1.5em 5em;
     padding: 0 2em;
 }

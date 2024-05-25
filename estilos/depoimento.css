@@ -1,0 +1,43 @@
+.depoimento {
+    background: var(--vermelho-claro);
+    padding: 5em;
+    text-align: center;
+    margin: auto;
+    border-radius: 16px;
+    width: 70%;
+}
+.depoimento__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+.depoimento__titulo{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+   
+    
+}
+.depoimento__descrição{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--azul);
+}
+.depoimento__colaborador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.colaborador__nome{
+    font-weight: 500;
+    color: var(--azul);
+}
+.colaborador__função{
+    font-size: 14px;
+    color: var(--cinza-claro);
+}
+.colaborador__imagem{
+width: 5%;
+}
