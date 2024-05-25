@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('/estilos/header.css');
-@import url('/estilos/cabecalho.css');
-@import url('/estilos/informacoes.css');
-@import url('/estilos/vagas.css');
-@import url('/estilos/depoimento.css');
-@import url('/estilos/rodape.css');
+@import url('./estilos/header.css');
+@import url('./estilos/cabecalho.css');
+@import url('./estilos/informacoes.css');
+@import url('./estilos/vagas.css');
+@import url('./estilos/depoimento.css');
+@import url('./estilos/rodape.css');
 
 :root{
     --cinza-escuro: rgba(58, 64, 78, 1);
